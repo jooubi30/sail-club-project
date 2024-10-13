@@ -21,6 +21,10 @@ body {
   font-size: 44px;
   line-height: 60px;
   text-transform: uppercase;
+  margin: 0;
+  padding-left: 70px;
+  padding-right: 612px;
+  padding-bottom: 40px;
 }
 
 .blog-article h2 {
@@ -223,6 +227,11 @@ body {
 
 .hero {
   margin-bottom: 120px;
+}
+
+
+.hero img {
+  display: block;
 }
 
 .blog-article {
