@@ -159,15 +159,18 @@ body {
   width: 1170px;
   margin: 0 auto;
   padding: 20px 55px;
+  margin-bottom: 40px;
 }
 
 .main-nav {
   display: flex;
+  align-items: center;
 }
 
 .logo {
   margin: 0;
   width: 64px;
+  height: 68px;
 }
 
 .main-nav .logo {
@@ -179,11 +182,36 @@ body {
   margin: 0;
   padding: 0;
   width: 559px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
 }
 
 .signin {
   margin-left: auto;
   width: 36px;
+  height: 36px;
+  border: 1px solid rgba(0, 198, 189, 1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-navigation-item a:hover {
+  color: rgba(22, 49, 82, 0.5);
+}
+
+.site-navigation-item a:active {
+  color: rgba(22, 49, 82, 0.3);
+}
+
+.signin:hover {
+ opacity: 0.5;
+}
+
+.signin:active {
+  opacity: 0.3;
 }
 
 .main-content {
