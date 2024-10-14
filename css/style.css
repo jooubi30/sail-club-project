@@ -37,7 +37,7 @@ body {
   text-underline-position: under;
   margin:0;
   margin-bottom: 35px;
-}
+} 
 
 .blog-article-date {
   font-size: 14px;
@@ -364,6 +364,85 @@ body {
 .blog-article-img {
   width: 600px;
   display: block;
+}
+
+.rent {
+  margin-bottom: 120px;
+}
+
+.rent h2 {
+  margin: 0;
+  margin-bottom: 55px;
+  font-size: 24px;
+  line-height: 34px;
+  text-decoration: underline;
+  text-decoration-color: #00c6bd;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+  text-underline-position: under;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  gap: 30px;
+}
+
+.card {
+  width: 310px;
+  padding: 30px;
+  background-color:rgba(253, 253, 255, 1);
+  box-shadow: 0px 4px 30px 0px rgba(22, 49, 82, 0.12);
+}
+
+.card-img {
+  display: block;
+  margin-bottom: 21px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 18px;
+}
+
+.card-description {
+  margin:0;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.card-features {
+  margin: 0;
+  margin-left: 15px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 29px;
+}
+
+.card-features li {
+  margin-bottom: 4px;
+}
+
+.card-features li:last-child {
+  margin-bottom:0;
+}
+
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
 }
 
 .news {
